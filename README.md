@@ -1,29 +1,32 @@
-# 👁️ GazeClicker
+# 👃 GazeNoseClicker
 
-**Göz kırparak bilgisayar kontrolü mü? Evet!**
-
-GazeClicker, göz kırpma hareketlerini algılayarak bir kutuya tıklama işlemini gerçekleştiren yenilikçi bir projedir.  
-Yapay zeka, görüntü işleme ve insan-bilgisayar etkileşiminin birleştiği bu projede çift göz kırpma ile otomatik tıklama sağlanır.
+**Yüzünüzle bilgisayarı kontrol edin!**  
+GazeNoseClicker, burun hareketiyle imleci kontrol etmenizi ve göz kırpmasıyla etkileşim gerçekleştirmenizi sağlayan yenilikçi bir projedir.
 
 ## 🚀 Özellikler
-- 👁️ Gerçek zamanlı göz kırpma tespiti (MediaPipe + OpenCV)
-- 🖱️ Çift göz kırpmasıyla otomatik mouse tıklama
-- 🎯 Kullanıcıyı hedefe odaklayarak kutuya tıklama simülasyonu
-- 🔧 Tamamen Python ile geliştirildi
+- 👃 Burunla imleç kontrolü (sağa, sola, yukarı, aşağı)
+- 👁️ Göz kırpmasıyla tıklama, sanal klavye ve kısayol aktivasyonu
+- 🎯 Çift göz kırpması ile `Ctrl + A` gibi özel aksiyonlar
+- ⌨️ Burun pozisyonuna göre sanal klavye üzerinden yazı yazma
+- 🔧 OpenCV + MediaPipe altyapısı ile gerçek zamanlı yüz takibi
 
 ## 🛠️ Gereken Kütüphaneler
 
 ```bash
-pip install opencv-python mediapipe cvzone pyautogui
+pip install opencv-python mediapipe pyautogui
 ```
 
-## 🎥 Nasıl Çalışır?
-Python script'i çalıştırdığında kamera açılır ve göz kırpma hareketlerinizi takip eder.  
-Çift göz kırpması algılandığında, fare ekrandaki belirlenen kutuya taşınır ve tıklama gerçekleştirilir.
+## 🎮 Nasıl Çalışır?
+- Kamera açılır ve yüzünüz izlenir.
+- Burun hareketinizle imleç hareket eder.
+- Göz kırpma ile:
+  - Sol göz: tıklama
+  - Sağ göz: sanal klavye
+  - İkisi birden: Ctrl+A
 
 ## 👩‍💻 Geliştirici
 [Hilal Öklük](https://github.com/HilalOkluk)
 
 ---
 
-🧪 *Bu proje, insan-bilgisayar etkileşimi ve engelli bireyler için erişilebilirlik çözümleri üzerine temel oluşturabilir.*
+🧪 *Erişilebilirlik için insan-bilgisayar etkileşiminin güçlü bir örneği.*
